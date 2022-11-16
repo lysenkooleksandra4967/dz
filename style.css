@@ -1,32 +1,16 @@
 * {
-	margin: 0;
-	padding: 0;
-}
-a {
-	text-decoration: none;
+    margin: 0;
+    padding: 0;
 }
 body {
-	background: rgb(63,94,251);
-	background: linear-gradient(90deg, rgba(63,94,251,1) 9%, rgba(81,252,229,1) 22%, rgba(144,251,113,0.7043768190870099) 45%, rgba(85,248,171,1) 66%, rgba(70,182,252,0.3430322812718838) 96%);
-	font-family: "Calibri", sans-serif;
-	font-weight: 500;
+    font-size: 24px;
+    font-family: sans-serif;
 }
-
-header {
-	position: sticky;
-	top: 0;
-	background: #ff7939;
-	border-bottom: 1px solid black;
+a {
+    text-decoration: none;
+    color: white;
 }
-.add_header {
-	background: #ff7939;
-	border-bottom: 1px solid black;
-	text-align: center;
-}
-.slogan {
-	font-size: 40px;
-	font-family: sans;
-	font-style: italic;
-	color: black;
-	margin: 50px 0;
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1 fr;
 }
